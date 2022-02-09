@@ -50,7 +50,7 @@ body {
 }
 
 .main-intro-subtext {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .main-form {
@@ -67,6 +67,27 @@ body {
   border: 1.5px solid #c2d3ff;
   padding: 12.5px 25px;
   margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.main-form .input-text::-webkit-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main-form .input-text:-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main-form .input-text::-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main-form .input-text::placeholder {
+  color: #c2d3ff;
+}
+
+.main-form .input-text:focus {
+  outline: none;
 }
 
 .main-form .input-submit {
@@ -91,7 +112,7 @@ body {
 
 .main-img {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .main-img img {
