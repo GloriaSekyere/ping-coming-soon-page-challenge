@@ -6,9 +6,132 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
-  padding: 10vh 50px;
-  background-color: red;
+  padding: 10vh 10% 40px;
+}
+
+.header {
+  width: 20%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  margin: 50px auto 100px;
+}
+
+.main-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-intro-text {
+  color: #969696;
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.main-intro-text span {
+  color: black;
+  font-weight: 700;
+}
+
+.main-intro-subtext {
+  font-size: 16px;
+}
+
+.main-form {
+  margin-bottom: 55px;
+}
+
+.main-form-input {
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.main-form .input-text {
+  border: 1.5px solid #c2d3ff;
+  padding: 12.5px 25px;
+  margin-bottom: 5px;
+}
+
+.main-form .input-submit {
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #4f7df3;
+  padding: 15px 0;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 7.5px 10px #c2d3ff;
+          box-shadow: 0 7.5px 10px #c2d3ff;
+}
+
+.main-form span {
+  text-align: center;
+  display: none;
+  color: #ff5263;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.main-img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.main-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-icons {
+  width: 37.5%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #c2d3ff;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.footer-icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.footer-copyright {
+  color: #969696;
+  font-size: 12px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
