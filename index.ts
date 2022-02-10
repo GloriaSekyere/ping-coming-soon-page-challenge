@@ -12,6 +12,9 @@ form.addEventListener('submit', (e:Event) => {
 });
 
 
+/* SVG color change can be done with fill property in CSS
+Keeping this here for reference because I worked hard on it.
+
 const icons = document.querySelectorAll(".footer-icon") as NodeListOf<HTMLElement>;
 icons.forEach(icon => {
   let svg = icon.childNodes[1] as SVGImageElement;
@@ -30,5 +33,7 @@ icons.forEach(icon => {
     svg.setAttribute("fill", "hsl(223, 87%, 63%)");
   }
 });
+
+*/
 
 
