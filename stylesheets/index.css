@@ -99,6 +99,7 @@ body {
   margin-top: 10px;
   -webkit-box-shadow: 0 7.5px 10px #c2d3ff;
           box-shadow: 0 7.5px 10px #c2d3ff;
+  -webkit-appearance: none;
 }
 
 .main-form span {
