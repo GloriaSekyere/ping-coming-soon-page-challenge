@@ -1,0 +1,57 @@
+body {
+  padding: 7.5vh 27.5% 40px; //modified
+}
+
+.main {
+  &-intro {
+    margin-bottom: 40px; //modified
+    &-text {
+      font-size: 40px; //modified
+    }
+    &-subtext {
+      font-size: 18px; //modified
+    }
+  }
+
+  &-form {
+    margin: 0 auto 50px; //modified
+    width: 90%; //added
+    display: flex; //added
+    justify-content: space-between; //added
+    position: relative; //added
+  
+    &-input {
+      display: inline-block; //modified
+      width: 0; //modified
+    }
+
+    .input-text {
+      width: 67.5%; //added
+      padding: 15px 25px; //modified
+      margin-bottom: 0; //modified
+    }
+
+    .input-submit {
+      width: 30%; //added
+      margin-top: 0; //modified
+      &:hover { //added
+        background-color: hsl(223, 83%, 68%);
+        cursor: pointer;
+      }
+    }
+
+    span {
+      text-align: left; //modified
+      margin-bottom: 0; //modidfed
+      position: absolute; //added
+      bottom: -25px; //added
+      left: 27px; //added
+    }
+  }
+
+  &-img {
+    width: 90%; //modified
+    margin: 0 auto -50px; //modified
+  }
+}
+

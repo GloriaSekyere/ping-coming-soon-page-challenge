@@ -10,3 +10,21 @@ form.addEventListener('submit', (e) => {
         email.style.border = "1.5px solid hsl(354, 100%, 66%)";
     }
 });
+const icons = document.querySelectorAll(".footer-icon");
+icons.forEach(icon => {
+    let svg = icon.childNodes[1];
+    icon.onmouseover = () => {
+        icon.style.cssText = `
+      border: 2px solid hsl(223, 87%, 63%);
+      background-color: hsl(223, 87%, 63%);
+      cursor: pointer;`;
+        svg.setAttribute("fill", "#ffffff");
+    };
+    icon.onmouseout = () => {
+        icon.style.cssText = `
+      border: 2px solid hsl(223, 100%, 88%);
+      background-color: none;
+      cursor: pointer;`;
+        svg.setAttribute("fill", "hsl(223, 87%, 63%)");
+    };
+});
